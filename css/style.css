@@ -9,12 +9,14 @@
 
   body {
     font-family: 'Merriweather', serif;
-    color: #74878f;
+    color: #6d8088;
   }
   form {
     max-width: 100%;
     margin: auto;
-    background: #FFFFFF;
+    background-image: url("../img/wov.png");
+    background-color: rgba(255, 255, 255, .8);
+    background-blend-mode: overlay;
   }
   h1, h2, legend {
       color: #2E3945;
@@ -85,6 +87,7 @@
     margin: 0 4px 8px 0;
   }
   input:focus,
+  select:focus,
   textarea:focus {
     border: #617b99 3px solid;
     background: #FFFFFF;
@@ -138,13 +141,16 @@
     font-style: normal;
     border-radius: 5px;
     width: 100%;
-    margin: 30px 0 20px;
+    margin: 30px 0 30px;
   }
   footer {
+      background: #2E3945;
+      color: #FFFFFF;
       text-align: center;
       font-style: italic;
-      margin: 2em auto 12em
+      padding: 45px 0 45px;
   }
+
 
 
 /* Media Queries */
