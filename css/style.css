@@ -40,7 +40,7 @@
 /* Page element styles */
 
   h1.header {
-    background: #2e3945;
+    background: #2f3745;
     color: #FFFFFF;
     text-transform: uppercase;
     margin: auto;
@@ -92,7 +92,7 @@
   select:focus,
   textarea:focus {
     border: #617b99 3px solid;
-    background: #f9f8f5;
+    background: #FFFFFF;
     transition: all .3s ease-in-out;
   }
   input[id="zipcode"] {
@@ -146,13 +146,12 @@
     margin: 30px 0 30px;
   }
   footer {
-      background: #2E3945;
+      background: #2f3745;
       color: #FFFFFF;
       text-align: center;
       font-style: italic;
       padding: 45px 0 45px;
   }
-
 
 
 /* Media Queries */
