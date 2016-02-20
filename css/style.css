@@ -15,7 +15,7 @@
     max-width: 100%;
     margin: auto;
     background-image: url("../img/wov.png");
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(250, 250, 255, 0.8);
     background-blend-mode: overlay;
   }
   h1, h2, legend {
@@ -79,7 +79,7 @@
     outline: 0;
     padding: 15px;
     width: 100%;
-    background-color: #e8e7e4;
+    background-color: #eeedec;
     color: #7d8a93;
   }
   input[type="radio"],
