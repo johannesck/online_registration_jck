@@ -27,6 +27,8 @@
   .wrapper {
     max-width: 90%;
     margin: auto;
+    background: #FFFFFF;
+    padding: 0 40px 0;
   }
   .banner {
     text-align: center;
