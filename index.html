@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Registration Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+
+        <h1 class="header">The Code Review</h1>
+          <div class="wrapper">
+              <div class="banner">
+                  <h2>Signup for our newsletter</h2>
+                  <p>Get the latest news on how your code is doing right in your inbox</p>
+              </div>
+
+              <hr>
+
+              <fieldset>
+                  <legend>Contact Information</legend>
+
+                  <span><label>Full Name<input type="text" id="fullname" name="user_fullname" placeholder="Required"></label></span><br>
+
+                  <span><label>Email Address<input type="email" id="mail" name="user_email" placeholder="Required"></label></span><br>
+
+                  <span><label>Phone Number<input type="tel" id="phone" name="user_phone"></label></span><br>
+
+                  <span><label>Street Address<input type="text" id="street" name="user_street"></label></span><br>
+
+                  <span><label>City<input type="text" id="city" name="user_city"></label></span><br>
+
+                  <span><label>Country<select id="country" name="user_country">
+                      <option disabled="disabled" selected="selected">Choose Country</option>
+                      <optgroup>
+                          <option>Country A</option>
+                          <option>Country B</option>
+                          <option>Country C</option>
+                      </optgroup>
+                  </select></label></span><br>
+
+                  <div class="zipcode">
+                      <label>Zip Code</label>
+                      <input type="text" id="zipcode" name="user_zipcode">
+                  </div>
+              </fieldset>
+
+              <hr>
+
+              <fieldset>
+
+                  <legend>Newsletter</legend>
+                  <label>Select the newsletter you would like to receive</label>
+                  <br>
+                  <div class="newsletter-item">
+                      <input type="checkbox" id="htmlnews" value="interest_html" name="user_interest">
+                      <label for="htmlnews">HTML News</label>
+                  </div>
+                  <br><br>
+                  <div class="newsletter-item">
+                      <input type="checkbox" id="cssnews" value="interest_css" name="user_interest">
+                      <label for="cssnews">CSS News</label>
+                  </div>
+                  <br><br>
+                  <div class="newsletter-item">
+                      <input type="checkbox" id="javascriptnews" value="interest_javascript" name="user_interest">
+                      <label for="javascriptnews">Javascript News</label>
+                  </div>
+
+                  <br><br>
+
+                  <div class="newsletter-text"><label>Newsletter format</label></div>
+
+                  <br>
+
+                  <div class="newsletter-format">
+                      <input type="radio" id="htmlformat" value="htmlformat" name="preference-format">
+                      <label for="htmlformat">HTML</label>
+                  </div>
+                  <br><br>
+
+                  <div class="newsletter-format">
+                      <input type="radio" id="plaintextformat" value="plaintextformat" name="preference-format">
+                      <label for="plaintextformat">Plain text</label>
+                  </div>
+
+                  <br><br>
+
+                  <div class="newsletter-text">Other topics you'd like to hear about</div>
+
+                  <textarea name="textarea" id="textarea"></textarea>
+
+
+              </fieldset>
+
+              <button type="submit">Sign Up</button>
+          </div>
+
+      </form>
+
+      <footer>Copyright The Code Review</footer>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
