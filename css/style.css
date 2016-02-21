@@ -14,8 +14,7 @@
   form {
     max-width: 100%;
     margin: auto;
-    background-image: url("../img/wov.png");
-    background-color: rgba(219, 250, 255, 0.8);
+    background: rgba(219, 250, 255, 0.8) url("../img/wov.png");
     background-blend-mode: overlay;
   }
   h1, h2, legend {
@@ -25,7 +24,7 @@
 /* Page section styles */
 
   .wrapper {
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
     background: #FFFFFF;
     padding: 0 40px 0;
@@ -72,6 +71,7 @@
   input[type="text"],
   input[type="email"],
   input[type="tel"],
+  input[type="url"],
   textarea,
   select {
     border: none;
@@ -165,6 +165,7 @@
       input[type="text"],
       input[type="email"],
       input[type="tel"],
+      input[type="url"],
       select {
           max-width: 70%;
       }
@@ -190,7 +191,7 @@
           display: inline-block;
           float: left;
           max-width: 35%;
-          margin: 0 0 40px 131px;
+          margin: 0 0 40px 107px;
       }
       #textarea {
           margin-top: 25px;

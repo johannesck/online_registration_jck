@@ -24,9 +24,11 @@
               <fieldset>
                   <legend>Contact Information</legend>
 
-                  <span><label>Full Name<input type="text" id="fullname" name="user_fullname" placeholder="Required" required aria-required="true"></label></span><br>
+                  <span><label>Full Name<input type="text" id="fullname" name="user_fullname" placeholder="Required" aria-describedby="name-format" required aria-required="true" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstname lastname"></label></span><br>
 
                   <span><label>Email Address<input type="email" id="mail" name="user_email" placeholder="Required" required aria-required="true"></label></span><br>
+
+                  <span><label>Website URL<input type="url" id="website" name="user_website"></label></span><br>
 
                   <span><label>Phone Number<input type="tel" id="phone" name="user_phone"></label></span><br>
 
