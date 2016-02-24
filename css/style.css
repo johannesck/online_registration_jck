@@ -14,8 +14,7 @@
   form {
     max-width: 100%;
     margin: auto;
-    background: rgba(219, 250, 255, 0.8) url("../img/wov.png");
-    background-blend-mode: overlay;
+    background: url("../img/wov.png");
   }
   h1, h2, legend {
       color: #2E3945;
@@ -103,15 +102,6 @@
     height: 4.35rem;
     width: 100%;
   }
-  span {
-    line-height: 45px;
-  }
-  span label {
-      margin-top: -30px;
-  }
-  .zipcode label{
-      margin-top: -20px;
-  }
   div.newsletter-item label,
   div.newsletter-item input {
     float: left;
@@ -146,11 +136,11 @@
     margin: 30px 0 30px;
   }
   footer {
-      background: #2f3745;
-      color: #FFFFFF;
-      text-align: center;
-      font-style: italic;
-      padding: 45px 0 45px;
+    background: #2f3745;
+    color: #FFFFFF;
+    text-align: center;
+    font-style: italic;
+    padding: 45px 0 45px;
   }
 
 
@@ -158,6 +148,9 @@
 
   @media screen and (min-width: 780px) {
 
+      .clear {
+          clear: both;
+      }
       .wrapper {
           width: 90%;
           max-width: 700px;
@@ -168,24 +161,15 @@
       input[type="url"],
       select {
           max-width: 70%;
-      }
-      body input,
-      body select {
           float: right;
+          margin-bottom: 35px;
           display: inline-block;
       }
-      body span {
-          display: table-cell;
-          width: 800px;
-          line-height: 75px;
-      }
-      span label {
-          margin-top: 0;
-      }
-      div.zipcode > label {
+      label.label-form-fields {
           display: inline-block;
           float: left;
-          margin-top: 30px;
+          margin: 30px 0 50px 0;
+          height: 35px;
       }
       input[id="zipcode"] {
           display: inline-block;
